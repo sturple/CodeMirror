@@ -76,15 +76,15 @@
      "[variable articles]", 
      "[keyword if]",  
      "[variable a.active]",  "[keyword and]", "[variable a.color]", "[operator ==]", "[string 'hand']",  
-     "[keyword or]",  "[string 'white']","[operator !=]", "[variable and.ifinsomething]",
+     "[keyword or]",  "[string 'white']","[operator !=]", "[variable a.hand]",
      "[tag %}]"     
      );
-  
+  /*
   MT("block_title",
-     "[tag {%][keyword import] [string 'forms.html'] [keyword as] [variable forms] [tag %}]",     
-     "[tag {%] [keyword block] [variable title] [tag %}] Mirror: Twig [tag {%] [keyword endblock] [tag %}]"
+     "[tag {%][keyword import]", "[string 'forms.html']","[keyword as]","[variable forms][tag %}]",     
+     "[tag {%][keyword block]","[variable title]","[tag %}] Mirror: Twig [tag {%][keyword endblock][tag %}]"
     );
-  
+  */
   MT("functions",
      "[tag {{]", "[variable foobar][bracket (]","[variable foo]","[operator ,]","[string 'bar']", "[bracket )]",  "[tag }}]"     
     ); 
